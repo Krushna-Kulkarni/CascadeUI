@@ -3,3 +3,88 @@
 body{
     font-family: 'Inter', sans-serif;
 }
+
+
+.Header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 38px;
+    background: gray;
+  }
+
+
+ 
+  .brand-name a{
+    font-size: 20px;
+    color:paleturquoise;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .documentation-link{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .documentation-link a {
+    text-decoration: none;
+    color:peachpuff;
+    padding: 8px;
+  }
+
+
+
+  /* aside and page content */
+
+  *{
+    box-sizing: inherit; 
+  }
+
+  .page-wrapper {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+}
+
+.sidebar-nav{
+    min-width: 200px;
+    top: 1em;
+    margin: 0px;
+    align-items: center;
+    padding:5px 5px 2px 2px;
+}
+.sidebar-nav ul{
+    list-style: none;
+    padding:2px 2px;
+    margin-left:2px
+}
+.sidebar-nav ul li{
+    padding:5px 2px 5px 2px;
+}
+
+
+
+
+/* page content */
+
+.page-content{
+    min-width: 600px;
+    flex: 1 1 auto; 
+    min-width: 0px;
+    padding:20px 20px;
+    border-left: 1px solid gray;
+}
+
+.page-content section{
+    margin: 12px 12px;
+    padding: 12px 12px;
+    border-bottom: 1px solid gray;
+}
+
+
+
+
