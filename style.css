@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
+
+
+
 body{
     font-family: 'Inter', sans-serif;
 }
@@ -83,6 +86,61 @@ body{
     margin: 12px 12px;
     padding: 12px 12px;
     border-bottom: 1px solid gray;
+}
+
+
+
+/* ------------Components------------- */
+
+
+.alerts-child {
+  background-color: blueviolet;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  min-height: 0.2rem;
+}
+
+
+
+.alerts-child.success{
+  background-color: #bbf7d0;
+  color:green;
+}
+.alerts-child.info{
+  background-color: #bfdbfe;
+  color:blue;
+}
+
+.alerts-child.warning{
+  background-color: #fde68a;
+  color:#854d0e;
+}
+
+.alerts-child.error{
+  background-color: #fecaca;
+  color:red;
+}
+
+.alerts-container {
+  display: grid;
+
+  grid-gap: 20px;
+  padding:20px 20px;
+  box-shadow: 1px 2px 5px 3px rgba(0, 0, 0, 0.1);
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+}
+
+span.p-md{
+  margin:0 5px;
+}
+
+.alerts-code-container{
+  padding:15px 2px;
+  width: 100%;
 }
 
 
