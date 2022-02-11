@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 @import url(components/Alert/alert.css);
+@import url(components/Button/button.css);
 
 
 :root {
-  --headerbg-color: rgb(203 213 225/.1);
+  --header-bg-color: rgb(203 213 225/.1);
   --brand-color: #38bdf8;
   --documentation-link-color: #facc15;
   --border-color: gray;
@@ -98,3 +99,5 @@ body {
   padding: 1rem 1rem;
   border-bottom: 1px solid var(--border-color);
 }
+
+
