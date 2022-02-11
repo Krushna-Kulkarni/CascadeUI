@@ -68,6 +68,7 @@
 }
 
 .button-primary:hover {
+    cursor: pointer;
     background-color: var( --seconadry-hover-color);
     color: var(--secondary-font);
 }
@@ -78,6 +79,7 @@
 }
 
 .button-secondary:hover {
+    cursor: pointer;
     color: var(--disabled-font);
 }
 
@@ -96,6 +98,7 @@
 }
 
 .button-primary-o:hover {
+    cursor: pointer;
     background-color:var(--seconadry-hover-color);
 }
 
@@ -106,6 +109,7 @@
 }
 
 .button-secondary-o:hover {
+    cursor: pointer;
     background-color:var(--primary-hover-color);
 }
 
@@ -139,6 +143,7 @@
 }
 
 .text-primary:hover{
+    cursor: pointer;
     color:var(--ot-secondary-border-color)
 }
 
@@ -149,6 +154,7 @@
 }
 
 .text-secondary:hover{
+    cursor: pointer;
     color:var(--primary-hover-color)
 }
 
@@ -177,12 +183,14 @@
 }
 
 .button-icon i:hover{
+    cursor: pointer;
     color:var(--ot-secondary-border-color);
 }
 
 
 
 .button-code-container {
+    overflow: hidden;
     padding: 1rem 1rem;
     width: 100%;
 }
