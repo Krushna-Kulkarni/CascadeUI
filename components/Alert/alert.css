@@ -70,11 +70,6 @@
     padding: 0.1rem 0.1rem;
 }
 
-/* Alert code snippets */
-.alert-code-container.basic {
-    padding: 1rem 1.5rem;
-    width: 100%;
-}
 
 
 .alert-container.basic.button {
@@ -132,16 +127,20 @@
     padding: 0.2rem 0.2rem;
 }
 
-/* Alert code snippets */
-.alert-code-container {
-    padding: 1rem 1rem;
-    width: 100%;
-}
 
 .btn i:hover {
+    cursor: pointer;
     color: var(--btn-hover-color)
 }
 
 .btn:nth-child(2) {
     flex-grow: 1;
+}
+
+
+/* Alert code snippets */
+.alert-code-container {
+    overflow: hidden;
+    padding: 1rem 1rem;
+    width: 100%;
 }
