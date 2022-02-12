@@ -187,17 +187,6 @@
     color:var(--ot-secondary-border-color);
 }
 
-
-
-.button-code-container {
-    overflow: hidden;
-    padding: 1rem 1rem;
-    width: 100%;
-}
-
-
-
-
 .button-container.floating-icon{
     display: grid;
     grid-gap: 3rem;
@@ -231,6 +220,38 @@
 .button-floating-icon i:hover{
     cursor: pointer;
 
+}
+
+.button-code-container {
+    overflow: hidden;
+    padding: 1rem 1rem;
+    width: 100%;
+}
+
+.solid-button-code{
+    width: 100%;
+    height: 151px;
+}
+
+.outlined-button-code{
+    width: 100%; 
+    height: 138px;
+}
+
+.text-button-code{
+    width: 100%;
+    height: 138px;
+}
+
+.icon-button-code{
+    width: 100%;
+    height: 268px;
+}
+
+
+.floating-icon-button-code{
+    width: 100%;
+    height: 190px;
 }
 
 

@@ -134,3 +134,13 @@
   padding: 1rem 1rem;
   width: 100%;
 }
+
+.image-avatar-code{
+  width: 100%; 
+  height: 294px;
+}
+
+.text-avatar-code{
+  width: 100%; 
+  height: 268px;
+}
