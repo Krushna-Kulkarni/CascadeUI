@@ -1,0 +1,261 @@
+:root{
+  --primary:#38bdf8;
+  --light-color:#f3f4f6;
+  --text-color:black;
+  --off-white:#f3f4f6;
+}
+
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1.5rem;
+  box-shadow: 1px 2px 5px 3px rgba(0, 0, 0, 0.1);
+  grid-template-columns: repeat(3, 5rem);
+}
+
+.card {
+  margin: auto;
+  padding: 1rem;
+}
+
+.card .img {
+  width: 300px;
+  height: 300px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: fit-content;
+  background-color: var(--light-color);
+  border-radius: 0.5rem;
+}
+
+.text {
+  padding: 0.5rem;
+}
+
+.text h2 {
+  margin-bottom: 0;
+}
+
+.para {
+  padding: 0.5rem;
+}
+
+.card-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-btn {
+  justify-content: flex-start;
+  flex: 1 1 auto;
+  padding: 0.5rem;
+}
+
+.card-icons {
+  justify-content: flex-end;
+  flex: 1 1 auto;
+  padding: 0.5rem;
+}
+
+.card-btn-items {
+  font-size:0.8rem;
+  border: none;
+  background-color: var(--light-color);
+  border-radius: 0.2rem;
+  color: var(--primary);
+}
+
+.card-btn-items:hover {
+  cursor: pointer;
+  background-color: var(--primary);
+  color: var(--off-white);
+}
+
+.card-icons .fa {
+  cursor: pointer;
+  padding-inline-end: 1rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  text-align: center;
+  font-size: large;
+  color: var(--primary);
+}
+
+.card-icons .fa:hover {
+  background-color: var(--primary);
+  color: var(--light-color);
+}
+
+/*  */
+.card .image {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+}
+
+.img-badge {
+  position: absolute;
+  color: var(--text-color);
+  padding: 1rem;
+  background-color: var(--primary);
+  border-top-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+
+.btn1{
+    border: 1px solid var(--primary);
+    border-radius: 0.2rem;
+    font-size: 0.8em;
+    margin: 0.1rem 0.1rem;
+    padding: 0.5rem 0.5rem;
+    justify-content: center;
+    align-items: left;
+    min-height: 0.5rem;
+    width: 5rem;
+}
+
+
+
+/*  */
+
+.img-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-overlay {
+  position: absolute;
+  color: var(--text-color);
+  padding: 0.7rem;
+}
+
+.text-only {
+  background-color: var(--off-white);
+  border: 2px solid var(--hover-color);
+}
+
+.text-only .text {
+  color: var(--primary);
+}
+
+.text-only .card-buttons {
+  border-top: 1px solid var(--primary);
+}
+
+.text-only .card-btn-items {
+  background-color: var(--off-white);
+  color: var(--primary);
+}
+
+.text-only .card-btn-items:hover {
+  background-color: var(--primary);
+  color: var(--text-color);
+}
+
+
+/*  */
+
+
+.dismiss-badge {
+  cursor: pointer;
+  position: absolute;
+  color: var(--text-color);
+  padding: 0.5rem 0.7rem;
+  background-color: var(--primary);
+  border-top-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.dismiss-badge:hover{
+  color: var(--off-white);
+}
+
+
+/*  */
+
+
+.container-horizon {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: fit-content;
+  background-color: var(--light-color);
+  border-radius: 0.5rem;
+}
+
+.oneside {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-horizon {
+  width: 100px;
+  height: 100px;
+  border-top-left-radius: 0.5rem;
+}
+
+.text-horizon {
+  padding: 0.5rem;
+}
+
+.text-horizon h3 {
+  margin: 0;
+  padding-top: 1rem;
+}
+
+.shadow-cont {
+  box-shadow: 5px 5px 5px 5px var(--off-white);
+}
+
+
+.horizon-para{
+  font-size:0.7rem;
+}
+
+
+.card-code-container {
+  overflow: hidden;
+  padding: 1rem 1rem;
+  width: 100%;
+}
+
+.badge-card-code {
+  width: 100%; 
+  height: 489px;
+}
+
+.text-overlay-card-code{
+  width: 100%; 
+  height: 463px;
+}
+
+.dismiss-card-code{
+  width: 100%; 
+  height: 476px;
+}
+
+.text-only-card-code{
+  width: 100%; 
+  height: 411px;
+}
+
+.horizontal-card-code{
+  width: 100%; 
+  height: 476px;
+}
+
+.shadow-card-code{
+  width: 100%; 
+  height: 450px;
+}
