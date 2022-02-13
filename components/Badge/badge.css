@@ -5,7 +5,7 @@
 .badge-container {
     display: grid;
     grid-gap: 5rem;
-    padding: 1.5rem 1.5rem;
+    padding: 1.5rem;
     box-shadow: 1px 2px 5px 3px rgba(0, 0, 0, 0.1);
     grid-template-columns: repeat(4, 2rem);
 }
