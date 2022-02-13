@@ -1,0 +1,11 @@
+.installation-code-container {
+    overflow: hidden;
+    padding: 1rem 1rem;
+    width: 100%;
+}
+
+
+.installation-code{
+    width: 100%; 
+    height: 112px;
+}

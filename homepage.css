@@ -1,0 +1,41 @@
+
+
+.hompage-container{
+    margin-top:10%;
+    padding:1rem;
+}
+
+.homepage-btn-grid{
+    display: grid;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 5rem);
+  
+    grid-auto-columns: 50px;
+}
+
+.home-div{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+}
+
+.home-t{
+    color: var(--brand-color);
+}
+
+.hm.button-solid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hm.button-solid.button-primary a:hover{
+    color: var(--primary-color);
+}
+
+.hm.button-solid.button-secondary a:hover{
+    color: var(--disabled-color);
+}
