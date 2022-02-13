@@ -1,0 +1,173 @@
+:root{
+    --log-off:#991b1b;
+}
+
+.badge-container {
+    display: grid;
+    grid-gap: 5rem;
+    padding: 1.5rem;
+    box-shadow: 1px 2px 5px 3px rgba(0, 0, 0, 0.1);
+    grid-template-columns: repeat(4, 2rem);
+}
+
+
+
+.badge {
+    border-radius: 0.2rem;
+    font-size: 0.8em;
+    margin: 0.2rem 0.2rem;
+    padding: 0.5rem 0.5rem;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    min-height: 0.5rem;
+    width: 8rem; 
+}
+
+
+
+#badge .fa-home, .fa-heart-o, .fa-shopping-cart {
+    position: relative;
+    font-size: 2.5rem;
+}
+
+#badge .badge-on-icon {
+    font-size: 1.5rem;
+    position: absolute;
+    border-radius: 50%;
+    background-color: var(--primary);
+    color: var(--text-color);
+    width: 1.5rem;
+    text-align: center;
+    left: 1.5rem;
+    top: -0.7rem;
+}
+
+
+
+.badge-code-container{ 
+    padding: 1rem 1rem;
+    width: 100%;
+}
+
+.icon-badge-code{
+    width: 100%;
+    height:307px;
+}
+
+.badge-container-avatar {
+    display: grid;
+    grid-gap: 1rem;
+    padding: 1.5rem 1.5rem;
+    box-shadow: 1px 2px 5px 3px rgba(0, 0, 0, 0.1);
+    grid-template-columns: repeat(4, minmax(max-content, auto));
+    min-height: 0.5rem;
+}
+
+
+.badge-img {
+    border-radius: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.avatar-img.lg{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    position: relative;
+}
+
+.badge-on-avatar.lg{
+    position: absolute;
+    bottom: -0.1rem;
+    left: 4rem;
+    background-color: var(--log-off);
+    color: #E9ECEF;
+    border-radius: 50%;
+    width: 1.4rem;
+    height: 1.4rem;
+    text-align: center;
+}
+
+
+.avatar-img.md{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+.badge-on-avatar.md{
+    position: absolute;
+    bottom: -0.1rem;
+    left: 3rem;
+    background-color: var(--success-color);
+    color: #E9ECEF;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+}
+
+
+
+.avatar-img.sm{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+.badge-on-avatar.sm{
+    position: absolute;
+    bottom: -0.1rem;
+    left: 2rem;
+    background-color: var(--disabled-color);
+    color: #E9ECEF;
+    border-radius: 50%;
+    width: 0.8rem;
+    height: 0.8rem;
+    text-align: center;
+}
+
+
+.avatar-img.xs{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+.badge-on-avatar.xs{
+    position: absolute;
+    bottom: -0.1rem;
+    left: 1.2rem;
+    background-color: var(--warning-bg-color);
+    color: #E9ECEF;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    text-align: center;
+}
+
+
+
+
+.avatar-badge-code{
+    width: 100%;
+    height:437px;
+}
+
+
+
+
+
+
+
